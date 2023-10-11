@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scissors :D</title>
   </head>
-  <body
-    style="
-      background: url(https://giffiles.alphacoders.com/339/33944.gif) no-repeat
-        center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    "
-  >
+  <body>
+    <div class="cont">
+      <div class="container">
+        <div class="btn-wrap">
+          <button class="rock hov">ROCK</button>
+          <button class="'paper hov">PAPER</button>
+          <button class="scissors hov">SCISSORS</button>
+        </div>
+        <div class="status">
+          <div>YOU:<span class="you">0</span></div>
+          <div>COMPUTER:<span class="computer">0</span></div>
+        </div>
+        <div class="result"></div>
+      </div>
+    </div>
+    <div class="restart hov">RESTART</div>
     <script src="script.js"></script>
   </body>
 </html>
