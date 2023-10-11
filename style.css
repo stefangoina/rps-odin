@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto+Mono:ital,wght@1,300&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.15;
+  background: url("https://images6.alphacoders.com/133/1330235.png") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-right: 20px;
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: ADLaM Display;
+  padding: 30px;
+  color: white;
+  background-color: transparent;
+  border: 4px solid #f4f4f4;
+}
+.status,
+.result {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: ADLaM Display;
+  color: white;
+}
+
+.hov:hover {
+  cursor: pointer;
+  border: 3.5px solid orange;
+}
+
+.restart {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 20px;
+}
